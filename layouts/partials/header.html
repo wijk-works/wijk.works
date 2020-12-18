@@ -1,19 +1,36 @@
-{{- if (and (not .Site.Params.disableThemeToggle) (not (or (eq .Site.Params.defaultTheme "light") (eq .Site.Params.defaultTheme "dark")))) }}
+{{- /*  theme-toggle is enabled  */}}
+{{- if (not .Site.Params.disableThemeToggle) }}
+{{- /*  theme is light  */}}
+{{- if (eq .Site.Params.defaultTheme "light") }}
 <script>
-    // load memory
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    }
+
+</script>
+{{- /*  theme is dark  */}}
+{{- else if (eq .Site.Params.defaultTheme "dark") }}
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+{{- else }}
+{{- /*  theme is auto  */}}
+<script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
     } else if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
-    } else {
-        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
             document.body.classList.add('dark');
         }
-    }
 
 </script>
 {{- end }}
-{{- if (and (.Site.Params.disableThemeToggle) (eq .Site.Params.defaultTheme "auto")) }}
+{{- /*  theme-toggle is disabled and theme is auto  */}}
+{{- else if (and (ne .Site.Params.defaultTheme "light") (ne .Site.Params.defaultTheme "dark"))}}
 <script>
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
@@ -47,7 +64,7 @@
                 {{ end }}
             </a>
             <span class="logo-switches">
-                {{- if (and (not .Site.Params.disableThemeToggle) (not (or (eq .Site.Params.defaultTheme "light") (eq .Site.Params.defaultTheme "dark")))) }}
+                {{- if (not .Site.Params.disableThemeToggle) }}
                 <span class="theme-toggle">
                     <a id="theme-toggle" accesskey="t">
                         <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -79,10 +96,10 @@
                         {{- range . -}}
                         {{- if ne $lang .Lang }}
                         <li>
-                            <a href="{{- .Permalink -}}" title="{{ .Language.LanguageName | default .Lang | humanize }}"
-                                aria-label="{{ .Language.LanguageName | default .Lang | humanize }}">
+                            <a href="{{- .Permalink -}}" title="{{ .Language.LanguageName | default (.Lang | humanize) }}"
+                                aria-label="{{ .Language.LanguageName | default (.Lang | humanize) }}">
                                 {{- if (and $.Site.Params.displayFullLangName (.Language.LanguageName)) }}
-                                {{- .Language.LanguageName | humanize -}}
+                                {{- .Language.LanguageName | emojify -}}
                                 {{- else }}
                                 {{- .Lang | humanize -}}
                                 {{- end -}}
@@ -98,13 +115,11 @@
         {{- $currentPage := . }}
         <ul class="menu" id="menu" onscroll="menu_on_scroll()">
             {{- range .Site.Menus.main }}
-            {{- $menu_item_url := .URL | relLangURL }}
-            {{- $page_url:= $currentPage.RelPermalink | relLangURL }}
-            {{- $active := or (and (eq .URL "/") (eq $page_url "/")) (and (not (eq .URL "/")) (in $page_url $menu_item_url)) }}
+            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+            {{- $page_url:= $currentPage.Permalink  | absLangURL }}
             <li>
-                <a href="{{ .URL | absLangURL }}">
-                    <span {{- if $active }}
-                        {{- /* the menu item links to the current page (with relLangURL) */}} class="active" {{- end }}>
+                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}">
+                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
                         {{ .Name }}
                     </span>
                 </a>
