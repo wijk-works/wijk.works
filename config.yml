@@ -1,0 +1,65 @@
+baseURL: "https://wijk.works"
+title: Wijk Works - We build cloud software
+paginate: 5
+theme: hugo-PaperMod
+copyright: "&copy; 2020 Wijk Works AB"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpored: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+Menus:
+  main:
+    - URL: /
+      Name: Home
+      Weight: 1
+    - URL: services/
+      Name: Our Services
+      Weight: 2
+    - URL: about/
+      Name: About Us
+      Weight: 3
+    - URL: jobs/
+      Name: Jobs
+      Weight: 4
+    - URL: contact/
+      Name: Contact
+      Weight: 5
+
+params:
+  env: production
+  title: Wijk Works
+  description: We build cloud software
+
+  images:
+    - "apple-touch-icon.png"
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  comments: false
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: false
+
+  assets:
+    favicon: "favicon.png"
+
+  label:
+    text: "we build cloud software"
+
+  profileMode:
+    enabled: true
+    title: Wijk Works_
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/company/wijk-works/"
+    - name: github
+      url: "https://github.com/wijk-works/"
+    - name: email
+      url: "mailto:hello@wijk.works"
