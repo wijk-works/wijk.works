@@ -1,0 +1,12 @@
+.logo a {
+  font-weight: 300;
+}
+
+.logo h1 {
+  color: #2c8983;
+  display: inline;
+  font-family: Bitter, serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: lowercase;
+}

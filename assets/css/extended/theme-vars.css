@@ -1,0 +1,10 @@
+:root {
+  --radius: 4px;
+  --primary: #004844;
+  --tertiary: #f3f3f3;
+  --code-bg: #f3f3f3;
+}
+
+.list {
+  background: var(--theme);
+}
