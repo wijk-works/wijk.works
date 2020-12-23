@@ -7,7 +7,7 @@ draft: false
 | ------------- | ---- |
 | Wijk Works AB | Lund |
 
-| Organisationsnummer | VAT-nummer     |
+| Org.nummer | VAT-nummer     |
 | ------------------- | -------------- |
 | 559278-4218         | SE559278421801 |
 
