@@ -1,37 +1,34 @@
 ---
-title: "What We Do"
+title: "Våra Tjänster"
 draft: false
 ---
 
-If you came from our homepage you hopefully saw our tagline - _We build cloud software_. It's a short, but good, summary of what we mainly do.
-We also know a thing or two about other stuff, such as building regular, or non-regular, websites.
-
-Check out the various sections below. If you can't find what you're looking for just let us know, we might still be able to help you - or point you to someone who can.
-
-### From Idea To Reality
-
-**Cloud Software**\
-SaaS, AWS, GCP, Serverless, API. There are many buzzwords when it comes to the cloud. Usually you don't need to worry about them. Just let us know your idea and vision - we know the rest and will help you build it.
-
-### Getting Started
-
-Do you have a new business and need help getting started with digital services?
-
-| Domain                                            | Email                                                                     |
-| ------------------------------------------------- | ------------------------------------------------------------------------- |
-| If you pick a domain name, we help you set it up. | It is crucial to have a stable email provider. We can help you pick that. |
-
-| Website                                                                                                   | Documents                                                                                                                                |
-| --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| A good old website to showcase your product, business or something else. Everyone needs a website, right? | Nowadays it's common to write and store documents and presentations online. We help you choose a provider based on how you want to work. |
-
-### A Helping Hand
-
-**Boost Your Development Team**\
-Maybe you already have a product and team up and running but need an extra hand for a while? We can help.
+Vi erbjuder planering, utveckling och förvaltning av hemsidor och appar. Stora som små.
 
 ---
 
-|                                                               |
-| :-----------------------------------------------------------: |
-| [Contact us](/contact) and let us know how we can help you :) |
+|                                                                                    |
+| :--------------------------------------------------------------------------------: |
+| [Kontakta oss](/contact/) för en förutsättningslös diskussion kring dina önskemål. |
+
+---
+
+## Hemsida
+
+En hemsida kan se ut på många olika sätt och det finns flera olika verktyg man kan använda för att skriva och uppdatera innehåll. Det är inte alltid lätt att veta vilken väg man ska ta. Vi guidar dig och tar fram en hemsida som passar dig.
+
+[Kom igång](mailto:hej@wijk.works?subject=Jag%20vill%20ha%20en%20ny%20hemsida) med en ny hemsida.
+
+## App
+
+Har du en bra idé men behöver hjälp att förverkliga den? Vi finns här för dig. Vårt fokus ligger på att ta fram användarvänliga, snabba och stabila webbapplikationer som fungerar både på datorn och mobilen.
+
+Hur lösningen ser ut i sin helhet beror på vad det är för app. Ska det till exempel finnas möjlighet att ta emot betalningar? Kommer det vara många användare? Vi väljer rätt teknik och leverantörer utifrån det som behövs för din app.
+
+[Kom igång](mailto:hej@wijk.works?subject=Jag%20vill%20ha%20en%20ny%20app) med en ny app.
+
+## Annat
+
+Du behöver kanske en domän och email? Planer på att starta en webbutik?
+
+[Kontakta oss](/contact/) och berätta mer - vi hjälper dig 🙂

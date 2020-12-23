@@ -1,19 +1,14 @@
 ---
-title: "Contact Us"
+title: "Kontakta Oss"
 draft: false
 ---
 
-We're always happy to hear from you. If you would like to work with us or have any questions about our services or something else, just reach out!
+Hör av dig om du har några önskemål eller funderingar. Vi hjälper dig!
 
-**Email**\
-You should hear back from us within a business day (UTC+1).\
-hello@wijk.works
+| Mail           | Telefon                           |
+| -------------- | --------------------------------- |
+| hej@wijk.works | [08 505 424 04](tel:+46850542404) |
 
-**Phone**\
-8AM - 5PM during weekdays (UTC+1). If you call outside these hours or if we for some reason can't take your call, feel free to leave a message and we'll get back :)\
-[+46 8 505 424 04](tel:+46850542404)
-
-**Office**\
-Odlarevägen 14\
-226 60 Lund\
-Sweden
+**Kontor**\
+[Odlarevägen 14\
+226 60 Lund](https://goo.gl/maps/FoQ4PonX66F4qDUy8)

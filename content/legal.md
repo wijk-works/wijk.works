@@ -1,25 +1,25 @@
 ---
-title: "Legal Details"
+title: "Juridisk Information"
 draft: false
 ---
 
-| Legal Name    | Registered Office |
-| ------------- | ----------------- |
-| Wijk Works AB | Lund (Sweden)     |
+| Företagsnamn  | Säte |
+| ------------- | ---- |
+| Wijk Works AB | Lund |
 
-| Organization Number | VAT Number     |
+| Organisationsnummer | VAT-nummer     |
 | ------------------- | -------------- |
 | 559278-4218         | SE559278421801 |
 
-### Address
+## Adress
 
-| Postal            | Office         |
+| Post              | Kontor         |
 | ----------------- | -------------- |
 | Vårvädersvägen 4E | Odlarevägen 14 |
 | 222 27 Lund       | 226 60 Lund    |
-| Sweden            | Sweden         |
+| Sverige           | Sverige        |
 
-### Bank
+## Bank
 
 | Bankgiro  | BIC      |
 | --------- | -------- |

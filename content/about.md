@@ -1,9 +1,9 @@
 ---
-title: "Who We Are"
+title: "Om Oss"
 draft: false
 ---
 
-Founded in 2020, Wijk Works was born from the desire to build, learn and change things. Steve Jobs put it very eloquently:
+Wijk Works grundades 2020 av önskan att skapa, ändra och förbättra saker i världen. Steve Jobs uttryckte det bra under en intervju:
 
 ---
 
@@ -15,22 +15,22 @@ Founded in 2020, Wijk Works was born from the desire to build, learn and change 
 
 ---
 
-### The Name
+## Namnet
 
-Figuring out a great _and_ unique name is hard! Especially if you want a shorter one and the `.com` domain.
-I (Dan van Wijk) tried a few but soon felt I needed to find a different strategy. For these kind of things my imagination is a bit limited. I started looking at the long list of available top-level domains. Going back and forth a few times and one that got my attention was `.works`.
+Att komma på ett bra _och_ unikt namn är svårt! Speciellt om du vill ha ett kortare namn och `.com` domänen.
+Jag (Dan van Wijk) gjorde några försök men insåg snart att jag behövde hitta en annan strategi. Min fantasi är lite begränsad när det gäller sådana här saker. Jag började kolla på den långa listan med toppdomäner istället. Efter scrollande fram och tillbaka några gånger så var det en toppdomän som stack ut `.works`.
 
-It works (pun intended) on many levels and looks good when combined with my last name Wijk, as they both start with _W_. So there you have it - `wijk.works` was available and I found no other company with a similar name. Wijk Works AB was born.
+Den fungerar på flera nivåer och ser bra ut tillsammans med mitt efternamn Wijk, eftersom båda börjar med _W_. Så på den vägen är det - `wijk.works` var ledig och det fanns inga andra bolag med liknande namn. Wijk Works AB kom till.
 
-### The Logo
+## Logotypen
 
-Guidelines were to keep it simple, minimal yet not too boring. Easy enough.
+Riktlinjer var att hålla den enkel och minimal, men inte för tråkig.
 
-Browsing Google Fonts for a nice font, pair that with a good, distinct color and voilá. Still something missing though.. let's add an underscore for that extra touch of distinctiveness, a bit of geekiness and mysteriousness - indicating _things to come..._
+In på Google Fonts och leta upp ett passande typsnitt och para ihop det med en snygg distinkt färg. Fortfarande något som saknas dock. Vi lägger till ett understreck på slutet för att skapa något mer unikt, lite nördigt och mystiskt - man kan tolka det som _kommande saker..._ 🕵️
 
-### The Team
+## Teamet
 
-:wave: from our team!
+Hej från teamet! 👋
 
 |                        Dan van Wijk                         |     |
 | :---------------------------------------------------------: | --- |

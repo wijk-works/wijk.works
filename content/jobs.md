@@ -1,11 +1,10 @@
 ---
-title: "Jobs"
+title: "Lediga Jobb"
 draft: false
 ---
 
-No open positions right now :(
+Vi har inga lediga jobb just nu 🙁
 
-While we are not actively looking for fellow teammates, we would still love to hear from you.
-Be it for future employment, collaboration or networking.
+Du får självklart gärna höra av dig ändå. Vem vet när nästa möjlighet uppstår? Låt oss skapa kontakt!
 
-Head over to our [contact page](/contact/).
+jobb@wijk.works

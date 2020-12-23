@@ -1,5 +1,5 @@
 baseURL: "https://wijk.works"
-title: Wijk Works - We build cloud software
+title: Wijk Works - En webbyrå. Helt enkelt.
 paginate: 5
 theme: hugo-PaperMod
 copyright: "&copy; 2020 Wijk Works AB"
@@ -15,26 +15,23 @@ minify:
 
 Menus:
   main:
-    - URL: /
-      Name: Home
-      Weight: 1
     - URL: services/
-      Name: Our Services
-      Weight: 2
+      Name: Tjänster
+      Weight: 1
     - URL: about/
-      Name: About Us
-      Weight: 3
+      Name: Om Oss
+      Weight: 2
     - URL: jobs/
-      Name: Jobs
-      Weight: 4
+      Name: Jobb
+      Weight: 3
     - URL: contact/
-      Name: Contact
-      Weight: 5
+      Name: Kontakt
+      Weight: 4
 
 params:
   env: production
   title: Wijk Works
-  description: We build cloud software
+  description: En webbyrå. Helt enkelt.
 
   images:
     - "apple-touch-icon.png"
@@ -50,11 +47,19 @@ params:
     favicon: "favicon.png"
 
   label:
-    text: "we build cloud software"
+    text: "En webbyrå. Helt enkelt."
 
   profileMode:
     enabled: true
     title: Wijk Works_
+    subtitle: "Vad behöver du hjälp med?"
+    buttons:
+      - name: Hemsida
+        url: "/services/#hemsida"
+      - name: App
+        url: "/services/#app"
+      - name: Annat
+        url: "/services/#annat"
 
   socialIcons:
     - name: linkedin

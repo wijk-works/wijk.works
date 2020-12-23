@@ -1,9 +1,12 @@
 ---
-title: "Privacy Policy"
+title: "Integritetspolicy"
 draft: false
 ---
 
-We do not collect or store information about you, anonymous or otherwise, when using this website.
+Vi använder oss inte av cookies (kakor) och samlar ingen information om dig i marknadsföringssyfte när du besöker vår hemsida.
 
-If you choose to toggle between light/dark mode we store the selected preference on your computer.
-This information is not sent to us at any time.
+För vår och din säkerhet loggar vi alla besök för att kunna upptäcka och förhindra missbruk av vår hemsida. Dessa loggar raderas efter 2 veckor och används inte i något annat syfte. Loggarna inkluderar bland annat IP-adress och vilken sida du besökt. För att få komplett information om vad som finns med i loggarna ber vi dig läsa hos vår teknikleverantör [här](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html#BasicDistributionFileFormat).
+
+Om du väljer att växla mellan ljust/mörkt tema så sparar vi ditt val på din dator (i webbläsarens `localStorage`). Denna information skickas aldrig till oss.
+
+Personuppgifter och annan kundinformation som delas med oss behandlas enligt gällande lagar i Sverige.
