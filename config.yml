@@ -67,4 +67,4 @@ params:
     - name: github
       url: "https://github.com/wijk-works/"
     - name: email
-      url: "mailto:hello@wijk.works"
+      url: "mailto:hej@wijk.works"
