@@ -51,17 +51,9 @@
     <nav class="nav">
         <div class="logo">
             <a href="{{ "" | absLangURL }}" accesskey="h">
-                {{ if not .IsHome }}
                     {{- with .Site.Params.profileMode }}
                         <h1>{{- .title | default $.Site.Title | markdownify -}}</h1>
                     {{- end}}
-                {{ else }}
-                {{- if .Site.Params.label.icon }}
-                <img src="{{- .Site.Params.label.icon -}}" alt="logo" aria-label="logo"
-                    height="{{- .Site.Params.label.iconHeight | default "30px" -}}">
-                {{- end -}}
-                {{- .Site.Params.label.text | default .Site.Title -}}
-                {{ end }}
             </a>
             <span class="logo-switches">
                 {{- if (not .Site.Params.disableThemeToggle) }}
