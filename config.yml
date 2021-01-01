@@ -2,7 +2,7 @@ baseURL: "https://wijk.works"
 title: Wijk Works - En webbyrå. Helt enkelt.
 paginate: 5
 theme: hugo-PaperMod
-copyright: "&copy; 2020 Wijk Works AB"
+copyright: "&copy; 2020-2021 Wijk Works AB"
 
 enableRobotsTXT: true
 buildDrafts: false
