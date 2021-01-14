@@ -20,7 +20,6 @@ menu:
 | ----------------- | -------------- |
 | Vårvädersvägen 4E | Odlarevägen 14 |
 | 222 27 Lund       | 226 60 Lund    |
-| Sverige           | Sverige        |
 
 ### Bank
 
