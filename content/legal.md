@@ -1,17 +1,20 @@
 ---
 title: "Juridisk Information"
-draft: false
+menu:
+  footer:
+    name: Juridiskt
+    weight: 2
 ---
 
 | Företagsnamn  | Säte |
 | ------------- | ---- |
 | Wijk Works AB | Lund |
 
-| Org.nummer | VAT-nummer     |
-| ------------------- | -------------- |
-| 559278-4218         | SE559278421801 |
+| Org.nummer  | VAT-nummer     |
+| ----------- | -------------- |
+| 559278-4218 | SE559278421801 |
 
-## Adress
+### Adress
 
 | Post              | Kontor         |
 | ----------------- | -------------- |
@@ -19,7 +22,7 @@ draft: false
 | 222 27 Lund       | 226 60 Lund    |
 | Sverige           | Sverige        |
 
-## Bank
+### Bank
 
 | Bankgiro  | BIC      |
 | --------- | -------- |

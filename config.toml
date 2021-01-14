@@ -1,0 +1,12 @@
+baseURL = "https://wijk.works/"
+languageCode = "sv-se"
+title = "Wijk Works AB"
+theme = "hugo-theme-tailwindcss-starter"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpored = false
+
+[build]
+  writeStats = true

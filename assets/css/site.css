@@ -19,31 +19,22 @@
     U+FEFF, U+FFFD;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--primary);
-  font-weight: 300;
-  margin-bottom: 0;
-  margin-top: 0;
+h1.logo {
+  color: #2c8983;
+  font-family: Bitter, serif;
 }
 
-a {
-  color: var(--primary);
-}
-
-table {
+.prose table {
   display: table;
   table-layout: fixed;
 }
 
-thead,
-tbody,
-tfoot,
-tr,
-td {
-  vertical-align: top;
+.prose thead,
+.prose tbody tr {
+  border-bottom-color: transparent;
+}
+
+.prose thead th,
+.prose tbody td {
+  padding: 0;
 }

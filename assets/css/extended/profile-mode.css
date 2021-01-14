@@ -1,8 +1,0 @@
-.main .profile {
-  height: 85%;
-}
-
-.profile .profile_inner > p {
-  color: var(--content);
-  margin-top: 10px;
-}
