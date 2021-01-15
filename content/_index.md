@@ -5,7 +5,7 @@
 
 ### [annatto.se](https://www.annatto.se/)
 
-En webbyrå som inriktar sig på att designa, utveckla och förvalta hemsidor och webbtjänster.
+En webbyrå som inriktar sig på att designa, utveckla och drifta hemsidor och webbappar.
 
 ## Kontakt
 
