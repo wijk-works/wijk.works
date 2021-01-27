@@ -5,7 +5,7 @@
 
 ### [annatto.se](https://www.annatto.se/)
 
-En webbyrå med inriktning på design, utveckling och drift av hemsidor och webbapplikationer.
+En webbyrå som skapar användarvänliga hemsidor och webbapplikationer.
 
 ### [assistive.se](https://www.assistive.se/)
 
