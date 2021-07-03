@@ -17,6 +17,8 @@ jobs:
       run: |
         curl -L https://github.com/gohugoio/hugo/releases/download/v0.84.4/hugo_0.84.4_Linux-64bit.tar.gz -o hugo.tar.gz
         tar -xvf hugo.tar.gz
+        cp themes/hugo-theme-tailwindcss-starter/package.json themes/hugo-theme-tailwindcss-starter/package-lock.json .
+        npm i
 
     - name: Build site
       run: ./hugo --minify
