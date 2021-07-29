@@ -1,8 +1,67 @@
 {{ define "main" }}
-<div class="mx-auto max-w-xl mt-20 px-5">
-  <h1 class="logo lowercase font-semibold text-4xl text-center">
-    <a href="/">Wijk Works_</a>
-  </h1>
-  <article class="home prose my-10">{{ .Content }}</article>
+<div
+  class="
+    flex flex-col
+    prose
+    sm:prose-lg
+    dark:prose-light
+    sm:dark:prose-light-lg
+  "
+>
+  {{ .Content }}
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-0">
+    <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-1">
+        <div
+          class="fon-bold text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          Mail
+        </div>
+        <div class="underline">
+          <a href="mailto:hej@wijk.works">hej@wijk.works</a>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-1">
+        <div
+          class="fontbold text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          Telefon
+        </div>
+        <div class="underline">
+          <a href="tel:+46406207272">040 620 72 72</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-1">
+        <div
+          class="font-bld text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          Besök
+        </div>
+        <div class="underline">
+          <a href="https://goo.gl/maps/RCfjCsgyZKLn9rtz9" target="_blank"
+            >Odlarevägen 14, Lund</a
+          >
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-1">
+        <div
+          class="font-old text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          Post
+        </div>
+        <div class="underline">
+          <a href="https://goo.gl/maps/8emqHuQ9g7uFd2Hh9" target="_blank"
+            >Vårvädersvägen 4E, Lund</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 {{ end }}

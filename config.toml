@@ -1,7 +1,6 @@
 baseURL = "https://wijk.works/"
 languageCode = "sv-se"
-title = "Wijk Works AB"
-theme = "hugo-theme-tailwindcss-starter"
+title = "Wijk Works"
 
 enableRobotsTXT = true
 buildDrafts = false

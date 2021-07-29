@@ -1,0 +1,135 @@
+{{ define "main" }}
+<div
+  class="
+    flex flex-col
+    prose
+    sm:prose-lg
+    dark:prose-light
+    sm:dark:prose-light-lg
+  "
+>
+  {{ .Content }}
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-0">
+    <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-1">
+        <div
+          class="fon-bold text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          Företagsnamn
+        </div>
+        <div>Wijk Works AB</div>
+      </div>
+
+      <div class="flex flex-col gap-1">
+        <div
+          class="fontbold text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          Org.nummer
+        </div>
+        <div>559278-4218</div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-1">
+        <div
+          class="fon-bold text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          Säte
+        </div>
+        <div>Lund</div>
+      </div>
+
+      <div class="flex flex-col gap-1">
+        <div
+          class="fontbold text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          VAT-nummer
+        </div>
+        <div>SE559278421801</div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Adress</h3>
+
+  <div
+    class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-0 text-base sm:text-lg"
+  >
+    <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-1">
+        <div
+          class="fon-bold text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          Besök
+        </div>
+        <div>
+          Odlarevägen 14<br />
+          226 60 Lund
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-1">
+        <div
+          class="fon-bold text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          Post
+        </div>
+        <div>
+          Vårvädersvägen 4E<br />
+          222 27 Lund
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Bank</h3>
+
+  <div
+    class="
+      grid grid-cols-1
+      sm:grid-cols-2
+      gap-4
+      sm:gap-x-0
+      text-base
+      sm:text-lg
+    "
+  >
+    <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-1">
+        <div
+          class="fon-bold text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          Bankgiro
+        </div>
+        <div>5569-4004</div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-1">
+        <div
+          class="fon-bold text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          BIC
+        </div>
+        <div>ESSESESS</div>
+      </div>
+    </div>
+
+    <div class="col-span-1 sm:col-span-2 flex flex-col gap-4">
+      <div class="flex flex-col gap-1">
+        <div
+          class="fon-bold text-gray-500 dark:text-gray-400 text-sm uppercase"
+        >
+          IBAN
+        </div>
+        <div>SE0650000000056241104365</div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
