@@ -10,5 +10,6 @@
     {{ end }}
   </p>
 
-  <p>&copy; 2020-2022 <a href="/">Wijk Works AB</a></p>
+  {{- $currentYear := dateFormat "2006" now.UTC }}
+  <p>&copy; 2020-{{ $currentYear }} <a href="/">Wijk Works AB</a></p>
 </div>
